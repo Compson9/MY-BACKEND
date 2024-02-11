@@ -99,7 +99,7 @@ app.delete("/products/:id", async (req,res) => {
 })
 
 
-// MongoDB connection
+// MongoDB connection from mongoose
 
 mongoose.connect("mongodb+srv://compson9:Pascaline1@compsonapi.hqxozfc.mongodb.net/Node-Api?retryWrites=true&w=majority")
     .then(() => {
